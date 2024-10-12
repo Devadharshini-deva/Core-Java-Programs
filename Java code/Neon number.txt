@@ -1,0 +1,17 @@
+public class Main
+{
+	public static void main(String[] args) {
+		int a=2;
+		int b,Sum=0,rem;
+		b=a*a;
+		while(b!=0){
+		    rem=b%10;
+		    Sum=Sum+rem;
+		    b=b/10;
+		}
+		if(a==Sum)
+		System.out.print("Neon Number");
+		else
+		System.out.print("Not Neon Number");
+	}
+}

@@ -1,0 +1,24 @@
+public class Main
+{
+	public static void main(String[] args) {
+		int a=1729,b=a;
+		int Sum=0,rem,rev=0,d;
+		while(a!=0){
+		    rem=a%10;
+		    Sum=Sum+rem;
+		    a=a/10;
+		}
+		int C=Sum;
+		while(Sum!=0){
+		    rem=Sum%10;
+		    rev=rev*10+rem;
+		    Sum=Sum/10;
+		}
+		System.out.println(rev);
+		d=C*rev;
+		if(b==d)
+		System.out.print("Magic");
+		else
+		System.out.print("Not Magic");
+	}
+}

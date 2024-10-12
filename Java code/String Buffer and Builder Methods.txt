@@ -1,0 +1,26 @@
+
+public class Main
+{
+	public static void main(String[] args) {
+		StringBuffer sb=new StringBuffer("Computer Science & Engineering");
+// 		sb.append("-PACET");
+// 		System.out.println(sb);
+        // sb.insert(5,"TCS");
+        // System.out.println(sb);
+        // sb.replace(0,10,"TCS training");
+        // System.out.println(sb);
+        // sb.delete(5,8);
+        // System.out.println(sb);
+        // sb.reverse();
+        // System.out.println(sb);
+         //System.out.println(sb.capacity());
+        //System.out.println(sb.length());
+        //System.out.println(sb.deleteCharAt(7));
+        // sb.setCharAt(0,'Z');
+        // System.out.println(sb);
+        //System.out.println(sb.indexOf("&"));
+        //System.out.println(sb.substring(5,12));
+        // sb.setLength(10);
+        // System.out.println(sb);
+	}
+}

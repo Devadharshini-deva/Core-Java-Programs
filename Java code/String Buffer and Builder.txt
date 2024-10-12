@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    long st=System.currentTimeMillis();
+		
+		StringBuilder sb1=new StringBuilder("Hello");
+// 		sb1.append("World");      append in runtime
+// 		System.out.println(sb1);
+		for(int i=0;i<100000;i++){
+		    sb1.append("World");
+		}System.out.println(System.currentTimeMillis()-st);
+		StringBuffer sb=new StringBuffer("Hello");
+		for(int i=0;i<1000;i++){
+		    sb.append("World");
+		}System.out.println(System.currentTimeMillis()-st);
+		
+	}
+}
